@@ -3,7 +3,7 @@ kind: Service
 metadata:
   name: webhook
   namespace: ldap
-spec:
+spec: zachem?
   type: NodePort
   ports:
   - name: https
@@ -11,4 +11,4 @@ spec:
     targetPort: 443
   selector:
     app: webhook_authorization
-ya ne zlodei
+
